@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-
+    
 }
 
-
+a{
+    text-decoration: none;
+}
 
 
 /* header */
@@ -22,7 +24,7 @@ header {
 
 /* header */
 
-header .logo{
+header nav .logo{
     margin-right: 40px;
     color: white;
     
@@ -100,3 +102,180 @@ iframe{
 }
 
 /* main */
+
+
+/* aside */
+
+aside{
+    position: fixed;
+    right: 0;
+    top: 30%;
+    
+}
+
+aside ul{
+    list-style: none;
+    overflow: hidden;
+    
+ 
+}
+
+aside ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    background-color: blue;
+    transform: translateX(104px);
+    height: 50px;
+    transition: all 0.5s;
+}
+
+aside ul li:nth-child(1):hover {
+    transform: translateX(0);
+}
+
+aside ul li:nth-child(2):hover {
+    transform: translateX(0);
+}
+
+aside ul li span {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: orange;
+}
+
+
+aside ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+
+/* aside */
+
+
+
+
+
+/* models */
+
+.body2{
+    background-image: url(./img/back3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;    
+} 
+
+
+
+
+#main3{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 100px;
+    grid-gap: 10px
+
+}
+
+.mod1{
+align-items: center;
+box-shadow: 5px 10px 8px black;
+/* background-image: url(./img/po1.jpg); */
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+
+.mod2{
+align-items:center;
+box-shadow: 5px 10px 8px black;
+}
+
+.mod3{
+align-items: center;
+box-shadow: 5px 10px 8px black;
+} 
+
+
+
+/* models */
+
+
+
+
+
+
+  /* sing up  */
+
+.sing {
+    height: 100vh;
+    background-image: url(./img/bmw-4560531_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 120px;
+
+}
+#forms{
+    font-size: large;
+    font-weight: bold;
+    color: wheat;
+}
+.logo2{
+    font-size: 100px;
+    color: teal;
+}
+
+/* sing up  */
+
+
+/* modcar */
+
+.carinfo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 100vh;
+    margin-top: 60px;
+
+}
+
+
+.namecar{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    padding: 60px;
+    font-size: 120px;
+    border: 2px solid;
+    
+
+}
+
+.image4{
+    background-image: url(./img/po1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 700px;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    border: 2px solid;
+}
+
+
+.bc{
+    background-image: url(./img/back3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* modcar */
